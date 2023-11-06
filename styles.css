@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('messi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; /* Dark grey text color */
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white background */
+}
+
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 20px;
+    margin-bottom: 30px; /* Add some space between header and content */
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 20%; /* Set the maximum width to 50% of the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Add more CSS as needed */
